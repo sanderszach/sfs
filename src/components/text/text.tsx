@@ -1,6 +1,11 @@
 import styled from 'styled-components'
 import {typeface} from '../../theme'
 
+const mediaQuery = (fontSize:number) => `
+@media (max-width: 600px){
+    font-size: ${fontSize}px;
+}`
+
 export const P = styled.p`
     ${typeface}
     line-height: 26px;
@@ -15,11 +20,13 @@ export const Title = styled.h1`
     opacity: .5;
     color: ${props => props.color};
     ${typeface}
+    ${mediaQuery(60)}
 `
 Title.defaultProps = {color:'white'}
 
 export const H1 = styled.h1`
     font-family: 'Montserrat', sans-serif;
+    ${mediaQuery(36)}
 `;
 
 export const H3 = styled.h3`
