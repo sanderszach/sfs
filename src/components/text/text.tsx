@@ -17,12 +17,11 @@ export const Title = styled.h1`
     font-size: 75px;
     line-height: 75px;
     font-weight: 900;
-    opacity: .5;
     color: ${props => props.color};
     ${typeface}
     ${mediaQuery(60)}
 `
-Title.defaultProps = {color:'white'}
+Title.defaultProps = {color:'#ffffff7a'}
 
 export const H1 = styled.h1`
     font-family: 'Montserrat', sans-serif;
