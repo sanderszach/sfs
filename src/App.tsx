@@ -1,12 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { HomePage } from './pages/home-page/home-page';
-import { Dropdown, Icon, Nav, Navbar } from 'rsuite';
 import 'rsuite/dist/styles/rsuite-default.css';
-import { Logo, Section } from './components';
-import ReactDOM from "react-dom";
-import { Link, BrowserRouter as Router, Route } from "react-router-dom";
+import { Section } from './components';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import styled from 'styled-components';
 import { typeface } from './theme';
 
