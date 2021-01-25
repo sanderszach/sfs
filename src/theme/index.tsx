@@ -1,0 +1,1 @@
+export * from './abstracts/mixins/typeface'
