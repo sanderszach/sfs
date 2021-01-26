@@ -17,6 +17,7 @@ export const Title = styled.h1`
     font-size: 75px;
     line-height: 75px;
     font-weight: 900;
+    z-index: 100;
     color: ${props => props.color};
     ${typeface}
     ${mediaQuery(60)}
