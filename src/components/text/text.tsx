@@ -8,7 +8,8 @@ const mediaQuery = (fontSize:number) => `
 
 export const P = styled.p`
     ${typeface}
-    line-height: 26px;
+    line-height: 30px;
+    font-size: large;
     white-space: pre-wrap;
 `;
 

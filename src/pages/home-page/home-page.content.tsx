@@ -23,7 +23,7 @@ const guidelinesList = [
 const recommendationsText = `Need some recommendations from some Screen-Free Saturday pros? Here’s a few of our favorites:`
 const recommendationsList = [
     {text:`Cooking`, marker:`🧑‍🍳`},
-    {text:`Outdoor adventures - hiking, running, biking, walking, beaching, etc.`, marker:`🏃‍♀️`},
+    {text:`Outdoor adventures - hiking, running, biking, walking, beaching, etc.`, marker:`😀`}, //🏃‍♀️
     {text:`Sports of all kinds - soccer, basketball, golf, tennis, SUP, surf`,marker:`⚽`},
     {text:`Soft skills - cornhole, bocci, ping pong, bowling.`,marker:`🏓`},
     {text:`Reading`,marker:`📚`},
