@@ -14,7 +14,7 @@ export const HomePage: React.FC = () => {
                         amount: 0.2
                     },
                     {
-                        children: <div style={{position:'absolute',inset:'40% auto', margin:'auto', width:'100%', color:'white'}}>Test</div>, //ParallaxChildrenText('GET OUT THERE AND BE YOURSELF')
+                        children: ParallaxChildrenText('GET OUT THERE AND BE YOURSELF'),
                         amount: 0.5
                     },
                 ]}
@@ -41,6 +41,6 @@ export const HomePage: React.FC = () => {
 }
 
 const ParallaxChildrenText = (title:string) =>
-    <div style={{position:'absolute',inset:'40% auto', margin:'auto', width:'100%'}}>
+    <div style={{position:'absolute', top: '40%', left: 'auto', margin:'auto', width:'100%'}}> 
         <div style={{textAlign:'center',width: '80%', margin:'auto'}}><Title>{title}</Title></div>
     </div>
