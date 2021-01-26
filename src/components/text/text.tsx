@@ -19,7 +19,7 @@ export const Title = styled.h1`
     font-weight: 900;
     color: ${props => props.color};
     ${typeface}
-    ${mediaQuery(60)}
+    ${mediaQuery(40)}
 `
 Title.defaultProps = {color:'#ffffff7a'}
 
