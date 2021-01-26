@@ -14,14 +14,13 @@ export const HomePage: React.FC = () => {
                         amount: 0.2
                     },
                     {
-                        children: ParallaxChildrenText('GET OUT THERE AND BE YOURSELF'),
+                        children: <div style={{position:'absolute',inset:'40% auto', margin:'auto', width:'100%', color:'white'}}>Test</div>, //ParallaxChildrenText('GET OUT THERE AND BE YOURSELF')
                         amount: 0.5
                     },
                 ]}
                 style={{
                     height: '100vh',
                 }}
-                disabled={true}
             />
             <Section title="Our Story" fullHeight={true}>
                 <P>{ourStoryText}</P>
