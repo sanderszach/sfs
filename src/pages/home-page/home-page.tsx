@@ -1,7 +1,7 @@
 import React from 'react'
 import { Parallax, ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
-import { P, Section, Title, ListArray,SectionBreak } from '../../components'
-import { guidelinesText,guidelinesList,ourStoryText,recommendationsText,recommendationsList } from './home-page.content'
+import { P, Section, Title, ListArray,SectionBreak, Faq } from '../../components'
+import { guidelinesText,guidelinesList,ourStoryText,recommendationsText,recommendationsList, faqList } from './home-page.content'
 
 export const HomePage: React.FC = () => {
     return (
@@ -36,6 +36,10 @@ export const HomePage: React.FC = () => {
                 <P>{recommendationsText}</P>
                 <br/>
                 <ListArray data={recommendationsList}/>
+            </Section>
+            <SectionBreak />
+            <Section title="FAQs">
+                <Faq data={faqList} />
             </Section>
         </ParallaxProvider>
         </div>

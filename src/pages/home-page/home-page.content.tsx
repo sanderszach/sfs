@@ -41,4 +41,10 @@ const recommendationsList = [
     {text:`Get dressed up and go out on a date`,marker:`👫`},
 ]
 
-export {ourStoryText,guidelinesText,guidelinesList,recommendationsText,recommendationsList}
+const faqList = [
+    {question:`What if the Buffalo Bills are playing in Wild Card Weekend on Saturday and they haven’t won a playoff game since the 90s, and I really want to watch?`,answer:`This is intended to make your life better. If something on TV is so important that you had the date circled in your calendar for over a month, go ahead and watch. `},
+    {question:`I want to cook something. Can I look up a recipe?`,answer:`No. You can use a cookbook or get a recipe from a friend.`},
+    {question:`What if I can’t think of that actress’s name?`,answer:`Don’t even think about looking it up today. Just think harder. Or wait until tomorrow.  `},
+]
+
+export {ourStoryText,guidelinesText,guidelinesList,recommendationsText,recommendationsList,faqList}
