@@ -6,9 +6,7 @@ import { ListItemProps } from './types/list.types'
 export const List = styled.ul``
 export const ListItem = styled.li<{marker?:string}>`
     ${props => props.marker && `
-        &::marker{
-            content: "${props.marker} ";
-        }
+        list-style: none;
     `}
 
 `
@@ -20,7 +18,7 @@ export const ListArray:React.FC<OwnProps> = (props) => {
         <List>
             {data.map(x => 
                 <ListItem marker={x.marker || undefined} >
-                    <P dangerouslySetInnerHTML={{__html: x.text}}></P>
+                    <P dangerouslySetInnerHTML={{__html: `${x.marker || ``} ${x.text}`}}></P>
                 </ListItem>
             )}
         </List>
