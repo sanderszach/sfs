@@ -22,7 +22,7 @@ export const Title = styled.h1`
     ${typeface}
     ${mediaQuery(60)}
 `
-Title.defaultProps = {color:'#ffffff7a'}
+Title.defaultProps = {color:'white'} //#ffffff7a
 
 export const H1 = styled.h1`
     font-family: 'Montserrat', sans-serif;
