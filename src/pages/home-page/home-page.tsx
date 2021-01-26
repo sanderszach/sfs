@@ -21,6 +21,7 @@ export const HomePage: React.FC = () => {
                 style={{
                     height: '100vh',
                 }}
+                disabled={true}
             />
             <Section title="Our Story" fullHeight={true}>
                 <P>{ourStoryText}</P>
