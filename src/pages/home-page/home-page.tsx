@@ -28,11 +28,13 @@ export const HomePage: React.FC = () => {
             <SectionBreak />
             <Section title="Guidelines">
                 <P>{guidelinesText}</P>
+                <br/>
                 <ListArray data={guidelinesList}/>
             </Section>
             <SectionBreak />
-            <Section title="Recommended Activities">
+            <Section title="Screen-Free Activities">
                 <P>{recommendationsText}</P>
+                <br/>
                 <ListArray data={recommendationsList}/>
             </Section>
         </ParallaxProvider>
