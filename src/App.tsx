@@ -16,7 +16,7 @@ function App() {
     <>
     <Router>
         <MyNav>
-          <MyNavItem><a href="/">Screen-Free Saturday</a></MyNavItem>
+          <MyNavItem><a href="/"><img width={"30px"} src="/images/logo.svg"></img>&nbsp;Screen-Free Saturday</a></MyNavItem>
           {/* <MyNavItem hoverEffect><a href="/donate">Donate</a></MyNavItem> */}
         </MyNav>
         <MyPage>
