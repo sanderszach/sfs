@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ContentArea } from '..'
+import { ContentArea, P } from '..'
 import { colors } from '../../theme'
 
 export const Footer:React.FC = () => {
     return(
         <StyledFooter>
             <ContentArea>
+                <FooterItem><P color="white">Enjoy your Saturday!</P></FooterItem>
                 {/* <FooterItem><FooterItemLink href="/about-us">About Us</FooterItemLink></FooterItem>
                 <FooterItem><FooterItemLink href="/contact-us">Contact Us</FooterItemLink></FooterItem>
                 <FooterItem>

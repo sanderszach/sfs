@@ -6,11 +6,12 @@ const mediaQuery = (fontSize:number) => `
     font-size: ${fontSize}px;
 }`
 
-export const P = styled.p`
+export const P = styled.p<{color?:string}>`
     ${typeface}
     line-height: 30px;
     font-size: large;
     white-space: pre-wrap;
+    ${props => props.color && `color: ${props.color};`}
 `;
 
 export const Title = styled.h1`
