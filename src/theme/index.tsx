@@ -1,1 +1,1 @@
-export * from './abstracts/mixins/typeface'
+export * from './abstracts'

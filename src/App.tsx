@@ -6,18 +6,28 @@ import { Section } from './components';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import styled from 'styled-components';
 import { typeface } from './theme';
+import { Footer } from './components/footer/footer';
+import { AboutUs } from './pages/about-us/about-us';
+import { ContactUs } from './pages/contact-us/contact-us';
 
 
 function App() {
   return (
+    <>
     <Router>
         <MyNav>
           <MyNavItem><a href="/">Screen-Free Saturday</a></MyNavItem>
-          <MyNavItem hoverEffect><a href="/users">Donate</a></MyNavItem>
+          {/* <MyNavItem hoverEffect><a href="/donate">Donate</a></MyNavItem> */}
         </MyNav>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/users" component={Section} />
+        <MyPage>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/donate" component={Section} />
+          <Route path="/about-us" component={AboutUs} />
+          <Route path="/contact-us" component={ContactUs} />
+        </MyPage>
     </Router>
+    <Footer/>
+    </>
   );
 }
 
@@ -59,4 +69,8 @@ const MyNavItem = styled.li<{hoverEffect?:boolean}>`
       text-decoration: none;
     }
   }
+`
+
+const MyPage = styled.div`
+  margin-top:60px;
 `

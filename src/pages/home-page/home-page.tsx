@@ -41,6 +41,7 @@ export const HomePage: React.FC = () => {
             <Section title="FAQs">
                 <Faq data={faqList} />
             </Section>
+            <SectionBreak />
         </ParallaxProvider>
         </div>
     )

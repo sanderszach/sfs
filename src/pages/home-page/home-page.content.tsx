@@ -7,7 +7,7 @@ That’s when I sat down with my wife, and we decided we needed to make a change
 
 So here’s what we did. We decided no screens on Saturday. It’s just one day a week, it has clear boundaries, and it feels manageable.
 
-The first time we did it, we immediately knew this was an idea worth pursuing. It felt like being on vacation. We enjoyed the outdoors. We read. We cooked. We saw friends. And come Sunday, we were relaxed. We were renewed.
+The first time we did it, we immediately knew this was an idea worth pursuing. It felt like being on vacation. We enjoyed the outdoors. We read. We cooked. We saw friends. And come Sunday, we were relaxed and renewed.
 
 So that’s it. And now we want others to know our secret and try it out with us!
 `
@@ -42,8 +42,10 @@ const recommendationsList = [
 ]
 
 const faqList = [
-    {question:`What if the Buffalo Bills are playing in Wild Card Weekend on Saturday and they haven’t won a playoff game since the 90s, and I really want to watch?`,answer:`This is intended to make your life better. If something on TV is so important that you had the date circled in your calendar for over a month, go ahead and watch. `},
+    {question:`Can I use my email?`,answer:`No... but there are exceptions. Try to plan accordingly, but we all have different commitments and obligations and sometimes they don't stop on Saturday.`},
+    {question:`Can I use my Kindle?`,answer:`Yes!`},
     {question:`I want to cook something. Can I look up a recipe?`,answer:`No. You can use a cookbook or get a recipe from a friend.`},
+    {question:`What if the Buffalo Bills are playing in Wild Card Weekend on Saturday and they haven’t won a playoff game since the 90s, and I really want to watch?`,answer:`This is intended to make your life better. If something on TV is so important that you had the date circled in your calendar for over a month, go ahead and watch. `},
     {question:`What if I can’t think of that actress’s name?`,answer:`Don’t even think about looking it up today. Just think harder. Or wait until tomorrow.  `},
 ]
 
