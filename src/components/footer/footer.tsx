@@ -7,8 +7,13 @@ export const Footer:React.FC = () => {
     return(
         <StyledFooter>
             <ContentArea>
-                <FooterItem><FooterItemLink href="/about-us">About Us</FooterItemLink></FooterItem>
+                {/* <FooterItem><FooterItemLink href="/about-us">About Us</FooterItemLink></FooterItem>
                 <FooterItem><FooterItemLink href="/contact-us">Contact Us</FooterItemLink></FooterItem>
+                <FooterItem>
+                    <IconWrapper><i className="fab fa-instagram"></i></IconWrapper>
+                    <IconWrapper><i className="fab fa-facebook"></i></IconWrapper>
+                    <IconWrapper><i className="fab fa-twitter"></i></IconWrapper>
+                </FooterItem> */}
             </ContentArea>
         </StyledFooter>
     )
@@ -31,4 +36,9 @@ const FooterItemLink = styled.a`
     &:hover{
         color:white
     }
+`
+
+const IconWrapper = styled.span`
+    padding: 10px;
+    color: white;
 `
